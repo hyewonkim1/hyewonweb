@@ -1,0 +1,203 @@
+@media (max-width: 768px) {
+  /* Common CSS */
+  section:not(.welcome) {
+    height: auto;
+    padding: 40px 20px;
+  }
+  /* section.welcome {
+    padding: 0;
+  } */
+  section .inner {
+    width: 100%;
+  }
+  section .item {
+    width: 100%;
+  }
+  .heading h1 {
+    font-size: 2em;
+    line-height: 1.3em;
+  }
+  /* GNB */
+  .gnb {
+    text-align: center;
+    width: 100%;
+  }
+  .gnb a {
+    font-size: 2.2em;
+  }
+  /* Section : Welcome */
+  section.welcome .heading-title {
+    top: 45%;
+    font-size: 87px;
+    font-weight: bold;
+  }
+  section.welcome p:last-child {
+    top: 56%;
+    left: 9%;
+  }
+  /* Section : About */
+  section.about .item {
+    display: block;
+    overflow-y: scroll;
+  }
+  section.about .item .about-photo {
+    width: 100%;
+  }
+
+  /* About-info */
+  .about-info {
+  width: 100%;
+  }
+  .info-desc p {
+    line-height: 1em; 
+    font-size: 16px;
+  }
+  /* Education */
+  .education,
+  .license {
+  width: 100%;
+  padding: 0 10px;
+  }
+  .edu-list p,
+  .license-list p {
+    line-height: 1em;
+    margin: 8px 10px;
+  }
+  /* Section : Skills */
+  .outer {
+    width: 100%;
+    height: inherit;
+    overflow-x: scroll;
+    padding: 20px 20px;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .hexagon .caption {
+    display: flex block;
+  }
+  /* Section : Publishing */
+  .section-inner {
+    padding: 10px;
+    width: 100%;
+  }
+  .practical-item {
+    width: 100%;
+  }
+  .practical-content h4 {
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 8px;
+  }
+  /* Section : Clone Coding */
+  /* webtabs */
+  .web-tabs {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  .tab-inner {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-left: 16px;
+    margin: 20px 0;
+  }
+  /* Change Left Right */
+  .web-tab:nth-child(even) .tab-inner {
+    flex-direction: column-reverse;
+  }
+  .chrome-tab-inner .web-photo {
+    order: 2;
+  }
+  .chrome-tab-inner .tab-info {
+    order: 1;
+  }
+  /* tab-info */
+  .tab-info {
+    text-align: left;
+    padding: 0 10px;
+  }
+  .tab-info h3 {
+    font-size: 28px;
+  }
+  .tab-info p {
+    width: 100%;
+    margin: 0;
+  }
+  .web-tab-btn {
+    margin-top: 0;
+  }
+  .web-tab-btn label {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.8em;
+    margin: 0;
+  } 
+  .tab-info p {
+    margin: 0;
+  }
+  /* web photo */
+  .web-photo {
+    width: 260px;
+  }
+  .web-photo img {
+    width: 100%;
+  }
+  /* Section : Project */
+  .project {
+    overflow-y: scroll;
+  }
+  .content-inner {
+    flex-direction: column;
+  }
+  .web-tab-btn {
+    padding-top: 0;
+  }
+  .project-web-tab {
+    padding-top: 0;
+  }
+  .web-tab-btn {
+    margin-top: 0;
+    padding: 10px 0;
+  }
+  /* Detail CSS */
+  .web-tab-btn label {
+    font-size: 26px;
+  }
+  .project-tab-inner {
+    flex-direction: column;
+  }
+  /* Change Left Right */
+  .project-web-tab:nth-child(even) .project-tab-inner {
+    flex-direction: column;
+  }
+  /* project-tab-info */
+  .project-tab-info h3 {
+  font-size: 24px;
+  }
+  /* project-web photo */
+  .project-web-photo {
+    width: 100%;
+    margin: 20px auto;
+    box-shadow: none;
+  }
+  /* project-tab-info */
+  .project-tab-info {
+    font-size: 14px;
+  }
+  .project-tab-info p {
+    width: 100%;
+  }
+  
+  /* Section : Epilogue */
+  .epilogue-inner {
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+  
+
+
+
+}
