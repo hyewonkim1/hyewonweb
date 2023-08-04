@@ -1,9 +1,8 @@
 /* Google Web Font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-/* XEION CDN */
-@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
-
+/* FONTAWESOME CDN */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -151,8 +150,9 @@ a {
   cursor: pointer;
 }
 .btn-mode::before {
-  content: '\eb0f';
-  font-family: xeicon;
+  content: '\f186';
+
+  font-family: fontawesome;
 }
 .like-more {
   position: absolute;
@@ -166,11 +166,13 @@ a {
   cursor: pointer;
 }
 .btn-like::before {
-  content: '\ea11';
-  font-family: xeicon;
+  content: '\f004';
+  /* font-weight: 100; */
+  font-family: "Font Awesome 5 Free";
 }
 .btn-like.active::before{
-  content: '\ea10';
+  content: '\f004';
+  font-weight: 900;
 }
 .btn-more {
   cursor: pointer;
@@ -197,5 +199,5 @@ a {
   color: #fff;
 }
 .profile.dark .btn-mode::before {
-  content: '\eba3';
+  content: '\f185';
 }
