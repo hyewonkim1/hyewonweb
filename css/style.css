@@ -37,7 +37,7 @@ li {
 }
 a {
   color: #000;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 img {
   display: block;
@@ -259,6 +259,10 @@ section.about .item .about-photo .photo-img img {
   position: relative;
   font-weight: bold;
   font-family: 'Noto Sans KR', sans-serif;
+  text-decoration: none;
+}
+.photo-info button a:hover {
+  color: #000;
 }
 .photo-info button::before {
   content: '';
