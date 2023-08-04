@@ -87,8 +87,8 @@
   .link-item-title::after {
     position: absolute;
     right: 10px;
-    content: '\e942';
-    font-family: xeicon;
+    content: '\f107';
+    font-family: fontawesome;
     transition: 0.35s
   }
   .link-item-title.active::after {
