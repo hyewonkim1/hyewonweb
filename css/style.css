@@ -455,7 +455,7 @@ section.about .item .about-photo .photo-img img {
 }
 .practical-item {
   margin: 0 5px;
-  height: 173px;
+  height: 174px;
 }
 .practical-item:hover img {
   border: 1px solid #ff9f43;
@@ -890,13 +890,13 @@ section.epilogue .item {
 section.epilogue .ep-anim-top-right {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 30px;
   animation: rotate 6s linear infinite;
 }
 section.epilogue .ep-anim-bottom-left {
   position: absolute;
   bottom: 40px;
-  left: 0;
+  left: 40px;
   animation: rotate 6s linear infinite;
 }
 section.epilogue .ep-anim-middle {
